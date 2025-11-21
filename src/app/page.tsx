@@ -186,7 +186,7 @@ export default function Home() {
               </span>
             ))}
           </ScrollReveal>
-          <ScrollReveal delay={380} className="flex w-full justify-center">
+          {/* <ScrollReveal delay={380} className="flex w-full justify-center">
             <HeroTicker
               items={[
                 "AI films on demand",
@@ -195,7 +195,7 @@ export default function Home() {
                 "SaaS + copilots shipped",
               ]}
             />
-          </ScrollReveal>
+          </ScrollReveal> */}
           <ScrollReveal
             delay={430}
             className="mt-12 flex items-center gap-3 text-xs uppercase tracking-[0.6em] text-white/60"
